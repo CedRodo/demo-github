@@ -1,5 +1,5 @@
 import TVA from "./fonction.js"
 
-TVA(10);
+TVA(10, "fr");
 
-TVA(30);
+TVA(30, "en");
