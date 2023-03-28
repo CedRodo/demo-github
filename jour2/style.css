@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: pink;
+    text-decoration: none;
+}
+
+nav ul {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style: none;
+}
